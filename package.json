@@ -1,0 +1,22 @@
+{
+  "name": "vite-unit-test-template",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 5050",
+    "test": "jest"
+  },
+  "dependencies": {
+    "vue": "^3.2.33"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.11",
+    "@vitejs/plugin-vue": "^2.3.1",
+    "@vue/test-utils": "^2.0.0-rc.21",
+    "@vue/vue3-jest": "^27.0.0-alpha.4",
+    "babel-core": "^6.26.3",
+    "jest": "^27.5.1",
+    "vite": "^2.9.5"
+  }
+}
