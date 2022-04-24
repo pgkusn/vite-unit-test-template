@@ -2,7 +2,7 @@
 ## Install dependencies
 
 ```sh
-npm i -D jest @vue/test-utils @vue/vue3-jest babel-core @babel/preset-env
+npm i -D jest @vue/test-utils @vue/vue3-jest @babel/core @babel/preset-env @babel/plugin-transform-runtime
 ```
 
 ## Add the following configuration
@@ -19,12 +19,15 @@ module.exports = {
 }
 ```
 
-### babel.config.json
+### .babelrc
 
 ```json
 {
   "presets": [
     ["@babel/preset-env"]
+  ],
+  "plugins": [
+    ["@babel/plugin-transform-runtime"]
   ]
 }
 ```
